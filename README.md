@@ -33,7 +33,7 @@
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 스타크<br>**발표 주제:** HikariCP 파헤치기 |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 샤를<br>**발표 주제:** 이벤트 소싱이란? |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 쿠다<br>**발표 주제:** 우아한 Null 처리 |
-| <div align="center"><a href="./docs/level1/[러키] 그 추상화, 정말 필요한가요.pdf"><img src="./images/level1/[러키] 그 추상화, 정말 필요한가요.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요? |
+| <div align="center"><a href="./docs/level1/[러키] 그 추상화, 정말 필요한가요.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/images/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94,%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.png?raw=true" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요? |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 마이찬<br>**발표 주제:** 흩어진 『오브젝트』 속의 동의어와 인과관계 |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 모카<br>**발표 주제:** 컨트롤러의 오해, 그리고 서비스 계층 |
 
@@ -44,3 +44,4 @@
 | 발표 자료 | 발표 정보 |
 |---|---|
 | <div align="center"><a href="./docs/level2/xxx.pdf"><img src="./images/level2/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 쿠다<br>**발표 주제:** 스프링 테스트 어노테이션 |
+
