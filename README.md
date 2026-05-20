@@ -33,7 +33,7 @@
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 스타크<br>**발표 주제:** HikariCP 파헤치기 |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 샤를<br>**발표 주제:** 이벤트 소싱이란? |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 쿠다<br>**발표 주제:** 우아한 Null 처리 |
-| <div align="center"><a href="./docs/level1/[러키] 그 추상화, 정말 필요한가요?.pdf"><img src="./images/level1/[러키] 그 추상화, 정말 필요한가요?.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요? |
+| <div align="center"><a href="./docs/level1/[러키] 그 추상화, 정말 필요한가요.pdf"><img src="./images/level1/[러키] 그 추상화, 정말 필요한가요.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요? |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 마이찬<br>**발표 주제:** 흩어진 『오브젝트』 속의 동의어와 인과관계 |
 | <div align="center"><a href="./docs/level1/xxx.pdf"><img src="./images/level1/xxx.png" width="300"/></a><br><br><a href="https://youtube.com/">🎥 발표 영상</a></div> | **발표자:** 모카<br>**발표 주제:** 컨트롤러의 오해, 그리고 서비스 계층 |
 
