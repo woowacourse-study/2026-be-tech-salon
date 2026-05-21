@@ -72,9 +72,8 @@ def render_presentation_cell(presentation: dict) -> str:
     if thumb_url:
         preview = f'<a href="{pdf_url}"><img src="{thumb_url}" width="300"/></a>'
     else:
-        preview = ""
-    material_link = f'<a href="{pdf_url}">📚 발표 자료(클릭 시 확인 가능)</a>'
-    left = f'<div align="center">{"<br><br>".join(part for part in [preview, material_link] if part)}</div>'
+        preview = f'<a href="{pdf_url}">📚 발표 자료</a>'
+    left = f'<div align="center">{preview}</div>'
 
     video = f'<a href="{video_url}">🎥 발표 영상</a>' if video_url else "업로드 예정"
     right = f"**발표자:** {presenter}<br>**발표 주제:** {title}<br>**발표 영상:** {video}"
@@ -94,7 +93,7 @@ def render_archive(levels: list[dict]) -> str:
         lines.extend([
             f"## Level {level['level']}",
             "",
-            "| 발표 자료 | 발표 정보 |",
+            "| 발표 자료(클릭 시 확인 가능) | 발표 정보 |",
             "|---|---|",
         ])
         lines.extend(render_presentation_cell(presentation) for presentation in presentations)
