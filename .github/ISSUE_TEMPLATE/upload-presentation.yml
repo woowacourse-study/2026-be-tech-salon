@@ -1,0 +1,50 @@
+name: 스터디자료 업로드
+description: PDF와 발표 정보를 입력하면 README 발표 아카이브가 자동으로 갱신됩니다
+title: "[업로드] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        스터디자료를 업로드합니다. 이슈를 제출하면 자동으로 처리되고 완료 후 close 됩니다.
+        제목은 그대로 두셔도 됩니다. 처리 후 `[업로드] Level N - 발표자 / 제목` 형식으로 자동 갱신됩니다.
+
+  - type: input
+    id: level
+    attributes:
+      label: Level
+      description: 숫자만 입력해주세요. 예) 1
+      placeholder: "1"
+    validations:
+      required: true
+
+  - type: input
+    id: presenter
+    attributes:
+      label: 발표자
+      placeholder: 러키
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: 제목
+      placeholder: 그 추상화, 정말 필요한가요?
+    validations:
+      required: true
+
+  - type: input
+    id: video_url
+    attributes:
+      label: 발표 영상 URL
+      description: 선택 항목입니다. 영상이 없다면 비워두세요.
+      placeholder: https://youtube.com/...
+
+  - type: textarea
+    id: pdf
+    attributes:
+      label: PDF 파일
+      description: 이 영역에 PDF 파일을 드래그&드롭 해주세요.
+      placeholder: 여기에 PDF 파일을 드롭하세요.
+    validations:
+      required: true

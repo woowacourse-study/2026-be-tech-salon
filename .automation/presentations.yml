@@ -1,0 +1,7 @@
+levels:
+- level: 1
+  presentations:
+  - presenter: 러키
+    title: 그 추상화, 정말 필요한가요?
+    pdf: docs/level1/[러키] 그 추상화, 정말 필요한가요.pdf
+    thumbnail: images/level1/[러키] 그 추상화, 정말 필요한가요.png
