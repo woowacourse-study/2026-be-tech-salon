@@ -23,25 +23,6 @@
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | [러키](https://github.com/Jiihyun) | [마이찬](https://github.com/Uechann) | [모카](https://github.com/softmoca) | [샤를](https://github.com/sangjun121) | [스타크](https://github.com/MODUGGAGI) | [초록](https://github.com/2Jaeheon) | [쿠다](https://github.com/quddaz) |
 
-# 🗓️ 예정 발표
-
-## Level 1
-
-| 발표자 | 발표 주제 |
-|---|---|
-| 초록 | DriverManager VS DataSource (DB 연결 방식의 차이와 진화) |
-| 스타크 | HikariCP 파헤치기 |
-| 샤를 | 이벤트 소싱이란? |
-| 쿠다 | 우아한 Null 처리 |
-| 마이찬 | 흩어진 『오브젝트』 속의 동의어와 인과관계 |
-| 모카 | 컨트롤러의 오해, 그리고 서비스 계층 |
-
-## Level 2
-
-| 발표자 | 발표 주제 |
-|---|---|
-| 쿠다 | 스프링 테스트 어노테이션 |
-
 # 📚 발표 아카이브
 
 ## Level 1
