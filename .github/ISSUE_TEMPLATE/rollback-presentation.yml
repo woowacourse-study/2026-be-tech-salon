@@ -1,0 +1,36 @@
+name: 스터디자료 롤백
+description: 잘못 업로드된 스터디자료를 삭제하고 README 발표 아카이브를 다시 갱신합니다
+title: "[롤백] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        실수로 업로드된 스터디자료를 롤백합니다.
+        Level, 발표자, 제목이 정확히 일치하는 항목 1개를 찾아 PDF, 썸네일, README 항목을 함께 제거합니다.
+
+  - type: input
+    id: level
+    attributes:
+      label: Level
+      description: 숫자만 입력해주세요. 예) 1
+      placeholder: "1"
+    validations:
+      required: true
+
+  - type: input
+    id: presenter
+    attributes:
+      label: 발표자
+      description: 발표 아카이브에 등록된 발표자명과 정확히 일치해야 합니다.
+      placeholder: 러키
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: 제목
+      description: 발표 아카이브에 등록된 제목과 정확히 일치해야 합니다.
+      placeholder: 그 추상화, 정말 필요한가요?
+    validations:
+      required: true
