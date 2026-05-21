@@ -48,6 +48,6 @@
 
 | 발표 자료 | 발표 정보 |
 |---|---|
-| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.png" width="300"/></a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요? |
+| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.png" width="300"/></a><br><br><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.pdf">📚 발표 자료(클릭 시 확인 가능)</a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요?<br>**발표 영상:** 업로드 예정 |
 
 <br>

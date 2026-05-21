@@ -69,13 +69,15 @@ def render_presentation_cell(presentation: dict) -> str:
     thumb_url = encode_repo_path(presentation.get("thumbnail", ""), raw=True)
     video_url = (presentation.get("video_url") or "").strip()
 
-    media = f'<a href="{pdf_url}"><img src="{thumb_url}" width="300"/></a>' if thumb_url else f'<a href="{pdf_url}">📚 발표 자료</a>'
-    links = [media]
-    if video_url:
-        links.append(f'<a href="{video_url}">🎥 발표 영상</a>')
+    if thumb_url:
+        preview = f'<a href="{pdf_url}"><img src="{thumb_url}" width="300"/></a>'
+    else:
+        preview = ""
+    material_link = f'<a href="{pdf_url}">📚 발표 자료(클릭 시 확인 가능)</a>'
+    left = f'<div align="center">{"<br><br>".join(part for part in [preview, material_link] if part)}</div>'
 
-    left = f'<div align="center">{"<br><br>".join(links)}</div>'
-    right = f"**발표자:** {presenter}<br>**발표 주제:** {title}"
+    video = f'<a href="{video_url}">🎥 발표 영상</a>' if video_url else "업로드 예정"
+    right = f"**발표자:** {presenter}<br>**발표 주제:** {title}<br>**발표 영상:** {video}"
     return f"| {left} | {right} |"
 
 
