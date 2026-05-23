@@ -23,16 +23,6 @@
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | [러키](https://github.com/Jiihyun) | [마이찬](https://github.com/Uechann) | [모카](https://github.com/softmoca) | [샤를](https://github.com/sangjun121) | [스타크](https://github.com/MODUGGAGI) | [초록](https://github.com/2Jaeheon) | [쿠다](https://github.com/quddaz) |
 
-# 📚 발표 아카이브
-
-## Level 1
-
-| 발표 자료(클릭 시 확인 가능) | 발표 정보 |
-|---|---|
-| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.png" width="300"/></a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요?<br>**발표 영상:** 업로드 예정 |
-| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.png" width="300"/></a></div> | **발표자:** 모카<br>**발표 주제:** 컨트롤러의 오해, 그리고 서비스 계층<br>**발표 영상:** <a href="https://www.youtube.com/watch?v=VCWZsh5dPEc">🎥 발표 영상</a> |
-
-<br>
 
 ## 발표 자료 업로드 방법
 
@@ -93,7 +83,8 @@ PDF 파일: 발표 자료 PDF 업로드
 
 모든 항목을 입력한 뒤 `Create` 버튼을 클릭합니다.
 
-이슈가 생성되면 GitHub Actions가 자동으로 실행됩니다.(약 30초 소요)
+이슈가 생성되면 GitHub Actions가 자동으로 실행됩니다.
+처리에는 약 30초 정도 소요될 수 있습니다.
 
 ### 6. 처리 완료 확인
 
@@ -111,4 +102,13 @@ PDF 파일: 발표 자료 PDF 업로드
 
 </details>
 
+# 📚 발표 아카이브
 
+## Level 1
+
+| 발표 자료(클릭 시 확인 가능) | 발표 정보 |
+|---|---|
+| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.png" width="300"/></a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요?<br>**발표 영상:** 업로드 예정 |
+| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.png" width="300"/></a></div> | **발표자:** 모카<br>**발표 주제:** 컨트롤러의 오해, 그리고 서비스 계층<br>**발표 영상:** <a href="https://www.youtube.com/watch?v=VCWZsh5dPEc">🎥 발표 영상</a> |
+
+<br>
