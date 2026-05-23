@@ -33,3 +33,82 @@
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.png" width="300"/></a></div> | **발표자:** 모카<br>**발표 주제:** 컨트롤러의 오해, 그리고 서비스 계층<br>**발표 영상:** <a href="https://www.youtube.com/watch?v=VCWZsh5dPEc">🎥 발표 영상</a> |
 
 <br>
+
+## 발표 자료 업로드 방법
+
+<details>
+<summary>발표 자료 업로드 순서 보기</summary>
+
+<br>
+
+발표 자료는 GitHub Issue 템플릿을 통해 업로드합니다.  
+이슈를 생성하면 GitHub Actions가 자동으로 PDF 저장, 썸네일 생성, README 발표 아카이브 갱신까지 처리합니다.
+
+### 1. 발표 영상 업로드
+
+발표 영상이 있다면 먼저 YouTube에 영상을 업로드한 뒤 영상 URL을 복사합니다.
+
+> 발표 영상 URL은 선택 항목입니다.  
+> 영상이 아직 없다면 비워두고 PDF만 먼저 업로드해도 됩니다.
+
+### 2. 이슈 템플릿 선택
+
+저장소 상단 메뉴에서 `Issues` → `New issue`를 클릭합니다.
+
+이후 **스터디자료 업로드** 템플릿을 선택합니다.
+
+### 3. 이슈 제목 확인
+
+이슈 제목은 기본값인 `[업로드]`를 그대로 둡니다.
+
+처리가 완료되면 자동으로 아래 형식으로 변경됩니다.
+
+```text
+[업로드] Level N - 발표자 / 제목
+```
+
+### 4. 발표 정보 입력
+
+아래 항목을 입력합니다.
+
+| 항목 | 설명 |
+| --- | --- |
+| `Level` | 숫자만 입력합니다. 예) `1` |
+| `발표자` | 발표자 닉네임을 입력합니다. |
+| `제목` | 발표 제목을 입력합니다. |
+| `발표 영상 URL` | YouTube 영상 URL을 입력합니다. 영상이 없다면 비워둡니다. |
+| `PDF 파일` | 발표 자료 PDF를 드래그 앤 드롭합니다. |
+
+예시:
+
+```text
+Level: 1
+발표자: 모카
+제목: 컨트롤러의 오해, 그리고 서비스 계층
+발표 영상 URL: https://youtube.com/...
+PDF 파일: 발표 자료 PDF 업로드
+```
+
+### 5. 이슈 생성
+
+모든 항목을 입력한 뒤 `Create` 버튼을 클릭합니다.
+
+이슈가 생성되면 GitHub Actions가 자동으로 실행됩니다.(약 30초 소요)
+
+### 6. 처리 완료 확인
+
+처리가 완료되면 다음 작업이 자동으로 수행됩니다.
+
+1. PDF 파일 저장
+2. PDF 첫 페이지 기반 썸네일 생성
+3. 발표 데이터 갱신
+4. README 발표 아카이브 갱신
+5. 자동 커밋
+6. 이슈에 완료 댓글 작성
+7. 이슈 자동 close
+
+업로드가 끝난 뒤 README의 발표 아카이브에 자료가 정상적으로 반영되었는지 확인합니다.
+
+</details>
+
+
