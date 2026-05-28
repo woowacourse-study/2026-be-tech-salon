@@ -36,8 +36,8 @@ def parse_issue_body(body: str) -> dict[str, str]:
 
 
 def extract_pdf_url(text: str) -> str | None:
-    match = re.search(r"\[([^\]]+\.pdf)\]\((https?://[^\)]+)\)", text, re.IGNORECASE)
-    return match.group(2) if match else None
+    match = re.search(r"https?://[^\s)]+\.pdf(?:[?#][^\s)]*)?", text, re.IGNORECASE)
+    return match.group(0) if match else None
 
 
 def slugify_filename(title: str) -> str:
