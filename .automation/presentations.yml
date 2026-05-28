@@ -14,3 +14,8 @@ levels:
     title: HikariCP 내부 코드 파헤치키
     pdf: docs/level1/HikariCP 내부 코드 파헤치키.pdf
     thumbnail: images/level1/HikariCP 내부 코드 파헤치키.png
+  - presenter: 초록
+    title: DriverManager VS Datasource
+    pdf: docs/level1/DriverManager VS Datasource.pdf
+    thumbnail: images/level1/DriverManager VS Datasource.png
+    video_url: https://youtu.be/J1PnyYITyXc
