@@ -19,3 +19,8 @@ levels:
     pdf: docs/level1/DriverManager VS Datasource.pdf
     thumbnail: images/level1/DriverManager VS Datasource.png
     video_url: https://youtu.be/J1PnyYITyXc
+  - presenter: 샤를
+    title: 이벤트 소싱과 CQRS 적용 시행 착오
+    pdf: docs/level1/이벤트 소싱과 CQRS 적용 시행 착오.pdf
+    thumbnail: images/level1/이벤트 소싱과 CQRS 적용 시행 착오.png
+    video_url: https://youtu.be/fA0wkkxsE4U?si=BJEMvcyHQfGywf7w
