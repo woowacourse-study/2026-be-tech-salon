@@ -24,3 +24,8 @@ levels:
     pdf: docs/level1/이벤트 소싱과 CQRS 적용 시행 착오.pdf
     thumbnail: images/level1/이벤트 소싱과 CQRS 적용 시행 착오.png
     video_url: https://youtu.be/fA0wkkxsE4U?si=BJEMvcyHQfGywf7w
+  - presenter: 마이찬
+    title: 흩어진 『오브젝트』 속의 동의어와 인과관계
+    pdf: docs/level1/흩어진 『오브젝트』 속의 동의어와 인과관계.pdf
+    thumbnail: images/level1/흩어진 『오브젝트』 속의 동의어와 인과관계.png
+    video_url: https://youtu.be/tSDc0mXE6l0
