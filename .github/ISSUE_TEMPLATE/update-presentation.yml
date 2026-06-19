@@ -1,0 +1,64 @@
+name: 스터디자료 수정
+description: 기존 발표 아카이브에 등록된 발표자, 제목, 영상 URL, PDF 파일을 수정합니다
+title: "[수정] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        기존 발표 아카이브 항목을 수정합니다.
+        현재 등록된 Level, 발표자, 제목이 정확히 일치하는 항목 1개를 찾아 입력한 값으로 갱신합니다.
+
+  - type: input
+    id: level
+    attributes:
+      label: Level
+      description: 숫자만 입력해주세요. 예) 1
+      placeholder: "1"
+    validations:
+      required: true
+
+  - type: input
+    id: current_presenter
+    attributes:
+      label: 현재 발표자
+      description: 발표 아카이브에 등록된 발표자명과 정확히 일치해야 합니다.
+      placeholder: 러키
+    validations:
+      required: true
+
+  - type: input
+    id: current_title
+    attributes:
+      label: 현재 제목
+      description: 발표 아카이브에 등록된 제목과 정확히 일치해야 합니다.
+      placeholder: 그 추상화, 정말 필요한가요?
+    validations:
+      required: true
+
+  - type: input
+    id: new_presenter
+    attributes:
+      label: 새 발표자
+      description: 비워두면 기존 발표자명을 유지합니다.
+      placeholder: 러키
+
+  - type: input
+    id: new_title
+    attributes:
+      label: 새 제목
+      description: 비워두면 기존 제목을 유지합니다.
+      placeholder: 그 추상화, 정말 필요한가요?
+
+  - type: input
+    id: video_url
+    attributes:
+      label: 발표 영상 URL
+      description: 비워두면 기존 영상 URL을 유지합니다. `없음`을 입력하면 영상 URL을 제거합니다.
+      placeholder: https://youtube.com/...
+
+  - type: textarea
+    id: pdf
+    attributes:
+      label: PDF 파일
+      description: 비워두면 기존 PDF 파일을 유지합니다. 교체하려면 이 영역에 PDF 파일을 드래그&드롭 해주세요.
+      placeholder: 여기에 새 PDF 파일을 드롭하세요.

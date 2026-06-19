@@ -102,6 +102,45 @@ PDF 파일: 발표 자료 PDF 업로드
 
 </details>
 
+## 발표 자료 수정 방법
+
+README 발표 아카이브는 발표 데이터로부터 자동 생성됩니다. 기존 발표 항목의 발표자, 제목, 발표 영상 URL, PDF 파일을 바꾸려면 README 아카이브 행을 직접 수정하지 말고 **스터디자료 수정** 이슈를 생성합니다.
+
+<details>
+<summary>발표 자료 수정 순서 보기</summary>
+
+<br>
+
+저장소 상단 메뉴에서 `Issues` → `New issue`를 클릭한 뒤 **스터디자료 수정** 템플릿을 선택합니다.
+
+아래 항목을 입력합니다.
+
+| 항목 | 설명 |
+| --- | --- |
+| `Level` | 수정할 발표가 등록된 Level을 숫자만 입력합니다. 예) `1` |
+| `현재 발표자` | README 발표 아카이브에 현재 등록된 발표자명을 정확히 입력합니다. |
+| `현재 제목` | README 발표 아카이브에 현재 등록된 발표 제목을 정확히 입력합니다. |
+| `새 발표자` | 발표자명을 바꿀 때만 입력합니다. 비워두면 기존 값이 유지됩니다. |
+| `새 제목` | 발표 제목을 바꿀 때만 입력합니다. 비워두면 기존 값이 유지됩니다. |
+| `발표 영상 URL` | 영상 URL을 바꿀 때 입력합니다. 비워두면 기존 값이 유지되고, `없음`을 입력하면 영상 URL이 제거됩니다. |
+| `PDF 파일` | PDF를 교체할 때만 새 PDF 파일을 드래그 앤 드롭합니다. 비워두면 기존 PDF 파일이 유지됩니다. |
+
+예시:
+
+```text
+Level: 1
+현재 발표자: 모카
+현재 제목: 컨트롤러의 오해, 그리고 서비스 계층
+새 발표자:
+새 제목: 컨트롤러의 오해, 그리고 서비스 계층 다시 보기
+발표 영상 URL: 없음
+PDF 파일:
+```
+
+이슈가 생성되면 GitHub Actions가 현재 등록된 `Level`, `현재 발표자`, `현재 제목`과 정확히 일치하는 발표 항목을 찾아 입력한 값으로 갱신합니다. 처리 완료 후 README 발표 아카이브는 발표 데이터 기준으로 다시 생성됩니다.
+
+</details>
+
 # 📚 발표 아카이브
 
 ## Level 1
@@ -110,7 +149,7 @@ PDF 파일: 발표 자료 PDF 업로드
 |---|---|
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%5B%EB%9F%AC%ED%82%A4%5D%20%EA%B7%B8%20%EC%B6%94%EC%83%81%ED%99%94%2C%20%EC%A0%95%EB%A7%90%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80%EC%9A%94.png" width="300"/></a></div> | **발표자:** 러키<br>**발표 주제:** 그 추상화, 정말 필요한가요?<br>**발표 영상:** 업로드 예정 |
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%9D%98%20%EC%98%A4%ED%95%B4%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B3%84%EC%B8%B5.png" width="300"/></a></div> | **발표자:** 모카<br>**발표 주제:** 컨트롤러의 오해, 그리고 서비스 계층<br>**발표 영상:** <a href="https://www.youtube.com/watch?v=VCWZsh5dPEc">🎥 발표 영상</a> |
-| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/HikariCP%20%EB%82%B4%EB%B6%80%20%EC%BD%94%EB%93%9C%20%ED%8C%8C%ED%97%A4%EC%B9%98%ED%82%A4.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/HikariCP%20%EB%82%B4%EB%B6%80%20%EC%BD%94%EB%93%9C%20%ED%8C%8C%ED%97%A4%EC%B9%98%ED%82%A4.png" width="300"/></a></div> | **발표자:** 스타크<br>**발표 주제:** HikariCP 내부 코드 파헤치키<br>**발표 영상:** 업로드 예정 |
+| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/HikariCP%20%EB%82%B4%EB%B6%80%20%EC%BD%94%EB%93%9C%20%ED%8C%8C%ED%97%A4%EC%B9%98%ED%82%A4.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/HikariCP%20%EB%82%B4%EB%B6%80%20%EC%BD%94%EB%93%9C%20%ED%8C%8C%ED%97%A4%EC%B9%98%ED%82%A4.png" width="300"/></a></div> | **발표자:** 스타크<br>**발표 주제:** HikariCP 내부 코드 파헤치기<br>**발표 영상:** <a href="https://youtu.be/nEQ6to3Y-w4?si=QlUcPQk30UBN_1wK">🎥 발표 영상</a> |
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/DriverManager%20VS%20Datasource.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/DriverManager%20VS%20Datasource.png" width="300"/></a></div> | **발표자:** 초록<br>**발표 주제:** DriverManager VS Datasource<br>**발표 영상:** <a href="https://youtu.be/J1PnyYITyXc">🎥 발표 영상</a> |
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%86%8C%EC%8B%B1%EA%B3%BC%20CQRS%20%EC%A0%81%EC%9A%A9%20%EC%8B%9C%ED%96%89%20%EC%B0%A9%EC%98%A4.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%86%8C%EC%8B%B1%EA%B3%BC%20CQRS%20%EC%A0%81%EC%9A%A9%20%EC%8B%9C%ED%96%89%20%EC%B0%A9%EC%98%A4.png" width="300"/></a></div> | **발표자:** 샤를<br>**발표 주제:** 이벤트 소싱과 CQRS 적용 시행 착오<br>**발표 영상:** <a href="https://youtu.be/fA0wkkxsE4U?si=BJEMvcyHQfGywf7w">🎥 발표 영상</a> |
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%ED%9D%A9%EC%96%B4%EC%A7%84%20%E3%80%8E%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8%E3%80%8F%20%EC%86%8D%EC%9D%98%20%EB%8F%99%EC%9D%98%EC%96%B4%EC%99%80%20%EC%9D%B8%EA%B3%BC%EA%B4%80%EA%B3%84.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%ED%9D%A9%EC%96%B4%EC%A7%84%20%E3%80%8E%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8%E3%80%8F%20%EC%86%8D%EC%9D%98%20%EB%8F%99%EC%9D%98%EC%96%B4%EC%99%80%20%EC%9D%B8%EA%B3%BC%EA%B4%80%EA%B3%84.png" width="300"/></a></div> | **발표자:** 마이찬<br>**발표 주제:** 흩어진 『오브젝트』 속의 동의어와 인과관계<br>**발표 영상:** <a href="https://youtu.be/tSDc0mXE6l0">🎥 발표 영상</a> |

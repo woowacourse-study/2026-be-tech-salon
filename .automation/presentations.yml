@@ -11,9 +11,10 @@ levels:
     thumbnail: images/level1/컨트롤러의 오해, 그리고 서비스 계층.png
     video_url: https://www.youtube.com/watch?v=VCWZsh5dPEc
   - presenter: 스타크
-    title: HikariCP 내부 코드 파헤치키
+    title: HikariCP 내부 코드 파헤치기
     pdf: docs/level1/HikariCP 내부 코드 파헤치키.pdf
     thumbnail: images/level1/HikariCP 내부 코드 파헤치키.png
+    video_url: https://youtu.be/nEQ6to3Y-w4?si=QlUcPQk30UBN_1wK
   - presenter: 초록
     title: DriverManager VS Datasource
     pdf: docs/level1/DriverManager VS Datasource.pdf
