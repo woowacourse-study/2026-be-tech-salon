@@ -29,3 +29,8 @@ levels:
     pdf: docs/level1/흩어진 『오브젝트』 속의 동의어와 인과관계.pdf
     thumbnail: images/level1/흩어진 『오브젝트』 속의 동의어와 인과관계.png
     video_url: https://youtu.be/tSDc0mXE6l0
+  - presenter: 쿠다
+    title: 우아한 Null 처리
+    pdf: docs/level1/우아한 Null 처리.pdf
+    thumbnail: images/level1/우아한 Null 처리.png
+    video_url: https://www.youtube.com/watch?v=sROB9Wgzv0c
