@@ -36,3 +36,10 @@ levels:
     pdf: docs/level1/우아한 Null 처리.pdf
     thumbnail: images/level1/우아한 Null 처리.png
     video_url: https://www.youtube.com/watch?v=sROB9Wgzv0c
+- level: 2
+  presentations:
+  - presenter: 샤를
+    title: 데이터베이스가 데드락을 처리하는 방식
+    pdf: docs/level2/데이터베이스가 데드락을 처리하는 방식.pdf
+    thumbnail: images/level2/데이터베이스가 데드락을 처리하는 방식.png
+    video_url: https://youtu.be/Pwp8wB9iTws?si=pZBrhK52BrYm9ynF

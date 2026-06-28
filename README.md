@@ -156,3 +156,11 @@ PDF 파일:
 | <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level1/%EC%9A%B0%EC%95%84%ED%95%9C%20Null%20%EC%B2%98%EB%A6%AC.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level1/%EC%9A%B0%EC%95%84%ED%95%9C%20Null%20%EC%B2%98%EB%A6%AC.png" width="300"/></a></div> | **발표자:** 쿠다<br>**발표 주제:** 우아한 Null 처리<br>**발표 영상:** <a href="https://www.youtube.com/watch?v=sROB9Wgzv0c">🎥 발표 영상</a> |
 
 <br>
+
+## Level 2
+
+| 발표 자료(클릭 시 확인 가능) | 발표 정보 |
+|---|---|
+| <div align="center"><a href="https://github.com/woowacourse-study/2026-be-tech-salon/blob/main/docs/level2/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B0%80%20%EB%8D%B0%EB%93%9C%EB%9D%BD%EC%9D%84%20%EC%B2%98%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D.pdf"><img src="https://github.com/woowacourse-study/2026-be-tech-salon/raw/main/images/level2/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EA%B0%80%20%EB%8D%B0%EB%93%9C%EB%9D%BD%EC%9D%84%20%EC%B2%98%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D.png" width="300"/></a></div> | **발표자:** 샤를<br>**발표 주제:** 데이터베이스가 데드락을 처리하는 방식<br>**발표 영상:** <a href="https://youtu.be/Pwp8wB9iTws?si=pZBrhK52BrYm9ynF">🎥 발표 영상</a> |
+
+<br>
