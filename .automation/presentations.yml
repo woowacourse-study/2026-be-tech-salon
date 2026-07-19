@@ -43,3 +43,7 @@ levels:
     pdf: docs/level2/데이터베이스가 데드락을 처리하는 방식.pdf
     thumbnail: images/level2/데이터베이스가 데드락을 처리하는 방식.png
     video_url: https://youtu.be/Pwp8wB9iTws?si=pZBrhK52BrYm9ynF
+  - presenter: 마이찬
+    title: '[마이찬] Tomcat Thread Pool 요청 하나가 서버를 통과하는 방법'
+    pdf: docs/level2/[마이찬] Tomcat Thread Pool 요청 하나가 서버를 통과하는 방법.pdf
+    thumbnail: images/level2/[마이찬] Tomcat Thread Pool 요청 하나가 서버를 통과하는 방법.png
